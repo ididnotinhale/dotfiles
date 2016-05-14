@@ -95,8 +95,8 @@ if !exists(":DiffOrig")
 endif
 
 " Vundle bootstrap
-if !isdirectory(expand("~/dotfiles/.vim/bundle/Vundle.vim"))
-  silent !git clone https://github.com/VundleVim/Vundle.vim.git ~/dotfiles/.vim/bundle/Vundle.vim
+if !isdirectory(expand("~/.vim/bundle/Vundle.vim"))
+  silent !git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 endif
 
 if filereadable(expand("~/.vimrc.bundles"))
