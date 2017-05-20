@@ -11,4 +11,4 @@ ln -sf ~/dotfiles/.vim ~/.config/nvim
 ln -sf ~/dotfiles/.vimrc ~/.config/nvim/init.vim
 
 # Tmux
-ln -sf ~dotfiles/.tmux.conf ~/.tmux.conf
+ln -sf ~/dotfiles/.tmux.conf ~/.tmux.conf
