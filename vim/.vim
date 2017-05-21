@@ -1,1 +1,0 @@
-/home/jgriesser/dotfiles/.vim
