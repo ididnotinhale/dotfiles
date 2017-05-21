@@ -15,6 +15,3 @@ ln -sf ~/.dotfiles/tmux.conf ~/.tmux.conf
 
 # zsh
 ln -sf ~/.dotfiles/zshrc ~/.zshrc
-
-# git
-ln -sf ~/.dotfiles/gitconfig ~/.gitconfig

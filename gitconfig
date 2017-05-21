@@ -1,0 +1,17 @@
+[user]
+	name = Johannes Griesser
+	email = johannes.griesser@nbcuni.com
+[core]
+	excludesfile = 
+	autocrlf = input
+	preloadindex = true
+	fscache = true
+[http]
+[difftool "sourcetree"]
+	cmd = 'subl.exe' -n --wait \"$LOCAL\" \"$REMOTE\" --command \"sublimerge_diff_views {\\\"left_read_only\\\": true, \\\"right_read_only\\\": true}\"
+[mergetool "sourcetree"]
+	cmd = 'subl.exe' -n --wait \"$LOCAL\" \"$BASE\" \"$REMOTE\" \"$MERGED\" --command \"sublimerge_diff_views\"
+	trustExitCode = true
+[gc]
+	auto = 256
+[http]
