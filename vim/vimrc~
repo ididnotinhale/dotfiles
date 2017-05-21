@@ -109,7 +109,7 @@ set encoding=utf-8
 " solarized options
 " set background=dark
 syntax enable
-" colorscheme solarized
+colorscheme solarized
 
 if has("gui_running")
   if has("gui_gtk2")
